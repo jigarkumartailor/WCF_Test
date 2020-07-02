@@ -5,6 +5,11 @@ VisualStudioVersion = 15.0.28307.1145
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloAcmeService", "HelloAcmeService\HelloAcmeService.csproj", "{19EEF68E-01C2-4650-B9B5-0CEC72D65FEA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloAcmeClient", "HelloAcmeClient\HelloAcmeClient.csproj", "{EFC4171F-C6E5-4C81-AFD1-9A8E23376C03}"
+	ProjectSection(ProjectDependencies) = postProject
+		{19EEF68E-01C2-4650-B9B5-0CEC72D65FEA} = {19EEF68E-01C2-4650-B9B5-0CEC72D65FEA}
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +20,10 @@ Global
 		{19EEF68E-01C2-4650-B9B5-0CEC72D65FEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{19EEF68E-01C2-4650-B9B5-0CEC72D65FEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{19EEF68E-01C2-4650-B9B5-0CEC72D65FEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFC4171F-C6E5-4C81-AFD1-9A8E23376C03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFC4171F-C6E5-4C81-AFD1-9A8E23376C03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFC4171F-C6E5-4C81-AFD1-9A8E23376C03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFC4171F-C6E5-4C81-AFD1-9A8E23376C03}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
